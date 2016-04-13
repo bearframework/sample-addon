@@ -1,0 +1,21 @@
+{
+    "name": "bearframework/sample-addon",
+    "description": "Sample addon for Bear Framework",
+    "keywords": ["Sample", "Bear Framework addon"],
+    "homepage": "https://github.com/bearframework/sample-addon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivo Petkov",
+            "email": "ivo@ivopetkov.com",
+            "homepage": "http://ivopetkov.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "bearframework/bearframework": "0.8.*"
+    },
+    "autoload": {
+        "files": ["autoload.php"]
+    }
+}
