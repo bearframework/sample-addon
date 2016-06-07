@@ -1,7 +1,7 @@
 {
     "name": "bearframework/sample-addon",
     "description": "Sample addon for Bear Framework",
-    "keywords": ["Sample", "Bear Framework addon"],
+    "keywords": ["Sample addon", "Bear Framework addon"],
     "homepage": "https://github.com/bearframework/sample-addon",
     "license": "MIT",
     "authors": [
