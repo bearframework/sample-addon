@@ -9,6 +9,6 @@
 
 use BearFramework\App;
 
-$app->routes->add('/addon/', function() {
+$app->routes->add('/addon/', function () {
     return new App\Response('The sample addon has rendered this page.');
 });
