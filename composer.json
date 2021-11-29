@@ -1,7 +1,10 @@
 {
     "name": "bearframework/sample-addon",
     "description": "Sample addon for Bear Framework",
-    "keywords": ["Sample addon", "Bear Framework addon"],
+    "keywords": [
+        "Sample addon",
+        "Bear Framework addon"
+    ],
     "homepage": "https://github.com/bearframework/sample-addon",
     "license": "MIT",
     "authors": [
@@ -12,10 +15,11 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "bearframework/bearframework": "0.8.*"
+        "bearframework/bearframework": "1.*"
     },
     "autoload": {
-        "files": ["autoload.php"]
+        "files": [
+            "autoload.php"
+        ]
     }
 }
